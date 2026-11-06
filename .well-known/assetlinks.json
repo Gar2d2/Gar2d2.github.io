@@ -1,0 +1,14 @@
+[
+  {
+    "target": {
+      "package_name": "timer.engine",
+      "namespace": "android_app",
+      "sha256_cert_fingerprints": [
+        "88:CA:56:0D:26:7B:6B:08:21:AE:00:43:EA:10:7F:62:E1:E7:C0:5D:20:A7:F7:49:B8:5D:49:0D:B8:4F:12:F5"
+      ]
+    },
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ]
+  }
+]
