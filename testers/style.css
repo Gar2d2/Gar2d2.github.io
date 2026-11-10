@@ -82,8 +82,9 @@ footer > span { display: inline-flex; align-items: center; min-height: 44px; }
 .onboarding-layout > * { min-width: 0; }
 
 .real-guide-1 { max-width: 300px; }
-.real-guide-2 { max-width: 350px; }
+.real-guide-2 { max-width: 500px; }
+.real-guide-3 { max-width: 500px; }
 .screenshot-frame { position: relative; }
 .screenshot-target { position: absolute; border: 3px solid #ffdc48; border-radius: 8px; box-shadow: 0 0 0 2px #172238; pointer-events: none; }
-.real-guide-2 .screenshot-target { left: 25%; top: 84%; width: 58%; height: 8%; }
-.real-guide-3 .screenshot-target { left: 2%; top: 44%; width: 80%; height: 17%; }
+.real-guide-2 .screenshot-target { left: 36%; top: 70%; width: 16%; height: 13%; }
+.real-guide-3 .screenshot-target { left: 69%; top: 14%; width: 20%; height: 7%; }
