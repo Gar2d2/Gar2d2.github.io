@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Dołącz do testów Timer Engine. Join the Timer Engine closed test.">
+		<meta name="theme-color" content="#0c1426">
+		<title>Dołącz do testów · Timer Engine</title>
+		<link rel="icon" href="assets/icon.png">
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<header class="site-header">
+			<a class="brand" href="../" aria-label="Timer Engine">
+				<img src="assets/icon.png" width="44" height="44" alt="">
+				<span>Timer Engine</span>
+			</a>
+			<nav class="language-picker" aria-label="Language / Język" hidden>
+				<button type="button" data-select-language="pl" aria-pressed="true">PL</button>
+				<button type="button" data-select-language="en" aria-pressed="false">EN</button>
+			</nav>
+		</header>
+		<main>
+			<div class="onboarding-layout">
+				<div class="instructions">
+					<section class="intro" data-language="pl" lang="pl">
+						<p class="eyebrow">Testy zamknięte · Android</p>
+						<h1>Pomóż rozwijać<br><span>Timer Engine.</span></h1>
+						<p class="lead">Twórz własne sekwencje odliczania — do treningu, pracy i codziennych zadań. Dołącz do testów i daj znać, co warto poprawić.</p>
+						<p class="account-note">We wszystkich trzech krokach użyj <strong>tego samego konta Google</strong> co w Sklepie Play na telefonie.</p>
+					</section>
+					<section class="intro" data-language="en" lang="en" hidden>
+						<p class="eyebrow">Closed test · Android</p>
+						<h1>Help shape<br><span>Timer Engine.</span></h1>
+						<p class="lead">Build your own countdown sequences for workouts, work and everyday tasks. Join the test and tell us what could be better.</p>
+						<p class="account-note">Use <strong>the same Google account</strong> for all three steps as in the Play Store on your phone.</p>
+					</section>
+					<section data-language="pl" lang="pl" aria-labelledby="steps-pl">
+						<h2 id="steps-pl" class="section-title">Zacznij w 3 krokach</h2>
+						<ol class="steps">
+							<li><span class="step-number" aria-hidden="true">1</span><div><h3>Dołącz do grupy</h3><p>Otwórz grupę Timer Engine i wybierz „Dołącz do grupy”. Komunikat o braku dostępu do treści grupy przed dołączeniem jest normalny — przycisk dołączenia nadal może być dostępny.</p><a class="action" href="https://groups.google.com/g/timerengine">Otwórz grupę Google <span aria-hidden="true">↗</span></a></div></li>
+							<li><span class="step-number" aria-hidden="true">2</span><div><h3>Zostań testerem</h3><p>Po dołączeniu do grupy otwórz stronę testów Google Play i wybierz „Zostań testerem”. Samo członkostwo w grupie nie zapisuje do testu.</p><a class="action" href="https://play.google.com/apps/testing/timer.engine">Zostań testerem <span aria-hidden="true">↗</span></a></div></li>
+							<li><span class="step-number" aria-hidden="true">3</span><div><h3>Zainstaluj i sprawdź aplikację</h3><p>Otwórz Sklep Play, zainstaluj Timer Engine i wypróbuj własną sekwencję. Na przykład: rozgrzewka, ćwiczenie i przerwa.</p><a class="action" href="https://play.google.com/store/apps/details?id=timer.engine">Zainstaluj z Google Play <span aria-hidden="true">↗</span></a></div></li>
+						</ol>
+					</section>
+					<section data-language="en" lang="en" aria-labelledby="steps-en" hidden>
+						<h2 id="steps-en" class="section-title">Get started in 3 steps</h2>
+						<ol class="steps">
+							<li><span class="step-number" aria-hidden="true">1</span><div><h3>Join the group</h3><p>Open the Timer Engine group and choose “Join group”. A message saying you cannot view group content before joining is normal — the join button may still be available.</p><a class="action" href="https://groups.google.com/g/timerengine">Open the Google group <span aria-hidden="true">↗</span></a></div></li>
+							<li><span class="step-number" aria-hidden="true">2</span><div><h3>Become a tester</h3><p>After joining the group, open the Google Play test page and choose “Become a tester”. Joining the group alone does not enroll you in the test.</p><a class="action" href="https://play.google.com/apps/testing/timer.engine">Become a tester <span aria-hidden="true">↗</span></a></div></li>
+							<li><span class="step-number" aria-hidden="true">3</span><div><h3>Install and try the app</h3><p>Open the Play Store, install Timer Engine and try your own sequence. For example: warm-up, exercise and rest.</p><a class="action" href="https://play.google.com/store/apps/details?id=timer.engine">Install from Google Play <span aria-hidden="true">↗</span></a></div></li>
+						</ol>
+					</section>
+				</div>
+				<aside class="video-panel" aria-labelledby="video-title">
+					<div class="video-heading">
+						<h2 id="video-title"><span data-language="pl">Zobacz, jak to działa</span><span data-language="en" hidden>See it in action</span></h2>
+						<p><span data-language="pl">Krótkie wprowadzenie do aplikacji</span><span data-language="en" hidden>A quick introduction to the app</span></p>
+					</div>
+					<video id="introduction-video" controls playsinline preload="none" poster="assets/poster-pl.jpg" aria-label="Wprowadzenie do Timer Engine">
+						<source src="assets/introduction-pl.mp4" type="video/mp4">
+						<a href="assets/introduction-pl.mp4">MP4 — Timer Engine</a>
+					</video>
+					<p class="video-download"><a id="video-download" href="assets/introduction-pl.mp4"><span data-language="pl">Otwórz film osobno (MP4)</span><span data-language="en" hidden>Open the video separately (MP4)</span></a></p>
+				</aside>
+			</div>
+			<section class="support-panel" data-language="pl" lang="pl" aria-labelledby="support-pl">
+				<h2 id="support-pl">Dziękuję za pomoc w testach!</h2>
+				<p>Jeśli możesz, pozostań zapisany do testu przez co najmniej <strong>14 kolejnych dni</strong>. W tym czasie rzeczywiście korzystaj z aplikacji i podziel się uwagami — co działa, co przeszkadza i czego brakuje.</p>
+				<a class="feedback-link" href="mailto:kontakt@systemduet.pl?subject=Timer%20Engine%20-%20testy">Prześlij uwagi: kontakt@systemduet.pl <span aria-hidden="true">↗</span></a>
+				<details><summary>Nie możesz zainstalować aplikacji?</summary><div class="help-content"><p>Sprawdź członkostwo w grupie oraz konto Google na stronie testów i w Sklepie Play. Zapisanie do testu może zacząć działać dopiero po kilku godzinach.</p><p>Dostępność zależy też od kraju konta Google Play — test może być ograniczony do Polski. Jeśli korzystasz z testu wewnętrznego, możesz widzieć inną wersję; napisz do nas, aby sprawdzić dostęp do testu zamkniętego.</p></div></details>
+			</section>
+			<section class="support-panel" data-language="en" lang="en" aria-labelledby="support-en" hidden>
+				<h2 id="support-en">Thank you for helping test!</h2>
+				<p>If you can, stay enrolled in the test for at least <strong>14 consecutive days</strong>. During this time, actually use the app and share your feedback: what works, what gets in the way and what is missing.</p>
+				<a class="feedback-link" href="mailto:kontakt@systemduet.pl?subject=Timer%20Engine%20-%20testing">Send feedback: kontakt@systemduet.pl <span aria-hidden="true">↗</span></a>
+				<details><summary>Cannot install the app?</summary><div class="help-content"><p>Check your group membership and Google account on the test page and in the Play Store. Enrollment changes may take a few hours to become available.</p><p>Availability also depends on your Google Play account country — the test may be limited to Poland. If you are in the internal test, you may see a different version; contact us to check access to the closed test.</p></div></details>
+			</section>
+		</main>
+		<footer><span>Timer Engine</span><a href="https://gar2d2.github.io/customizable-timer-privacy/"><span data-language="pl">Polityka prywatności</span><span data-language="en" hidden>Privacy policy</span></a></footer>
+	</body>
+</html>
