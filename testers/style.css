@@ -78,3 +78,5 @@ footer > span { display: inline-flex; align-items: center; min-height: 44px; }
 .click-guide a { display: block; border-radius: 14px; }
 .click-guide img { display: block; width: 100%; height: auto; border-radius: 14px; }
 .click-guide figcaption { margin-top: 6px; color: #c3cee0; font-size: .78rem; }
+
+.onboarding-layout > * { min-width: 0; }
