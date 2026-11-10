@@ -72,3 +72,9 @@ footer > span { display: inline-flex; align-items: center; min-height: 44px; }
 @media (prefers-reduced-motion: reduce) {
 	*, *::before, *::after { scroll-behavior: auto !important; }
 }
+
+.steps li > div { min-width: 0; flex: 1; }
+.click-guide { margin: 0 0 16px; max-width: 400px; }
+.click-guide a { display: block; border-radius: 14px; }
+.click-guide img { display: block; width: 100%; height: auto; border-radius: 14px; }
+.click-guide figcaption { margin-top: 6px; color: #c3cee0; font-size: .78rem; }
